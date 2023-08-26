@@ -57,6 +57,7 @@ exports.createZoomMeeting = async (topic, duration, start_time, password) => {
             purpose: response_data.topic,
             duration: response_data.duration,
             message: 'Success',
+            password: password,
             status: 1
         };
 
